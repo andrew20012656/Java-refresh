@@ -35,6 +35,25 @@
 6. Expression
 * formed by combining variables, literals, method return values and operators
 
+7. Overloading
+* Two method signatures can't have same number of parameters. For example,
+	* public int add(int a, String b) and public void add(int a,String b) will cause a problem since the two signatures have the same number of parameters.
 
+8. Constants
+* e.g. public private final String string1;
 
+## Control Flow Statements
+1. Switch statements
+	* switch(){case _: case_: default: }
+	* similar to if(){}else if(){}else{}
+	* case _: allows to check several cases in one line:
+		* e.g. case 'A': case 'B': case 'C': System.out.println("A or B or C");
+		
+2. Do-While Loop:
+* In contrast to While loop, do-while loop performs condition check at the end after the statements are executed once.
 
+3. Parsing
+* To convert a string into int, Integer.ParseInt(String);
+
+4. User input
+* We can use java.util.scanner to take users' input
