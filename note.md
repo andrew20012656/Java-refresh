@@ -57,3 +57,42 @@
 
 4. User input
 * We can use java.util.scanner to take users' input
+
+## OOP Part 1
+1. We can always use super() or this in a constructor to call another constructor from either the superclass or the same class to avoid duplicate codes.
+2. Overload vs. Override:
+	1. Overload:
+		1. both methods have the same method name
+		2. must have different parameters	
+	2. **Method Overriding**
+		1. defining a method in a child class that already exist in the parent class with the same signature (same name and arguments)
+		2.  is also known as Runtime Polymorphism and Dynamic Method Dispatch 
+		3. Return type can be a subclass of the return type in the parent class
+		4. overriden method can't have a lower access modifier (private < public)
+		5. Constructors and private methods can't be overriden
+		6. must not throw a new or broader check exception
+3. Static vs. Instance Methods
+	1. static methods - don't require a instance to be created (only need Class.method())
+		1. can't access instance methods and instance variables directly
+		2. can't use **this** keyword
+		3. whenever a method doesn't use instance variable, the method should be declared as static
+	2. instance methods 
+		1. belongs to an instance of a class
+		2. can access instance methods and instance variables directly
+		3. can access static methods and static variables directly
+	3. determine whether a static or a instance method
+		1. does it use any fields or instance methods?
+			1. if yes, make it a instance method
+			2. if no, it can be a static method
+
+4. Static vs instance variables
+	1. Static variables:
+		1. declared by the keyword static
+		2. aka static member variables
+		3. every instance of that class shares the same static value
+	2. Instance variables:
+		1. aka fields or member variables
+		2. belong to a specific instance of a class
+		
+	
+		
