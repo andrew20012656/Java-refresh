@@ -88,6 +88,10 @@ public class Car {
 	 * @param engine
 	 * @param color
 	 */
+	public Car() {
+		this(1, 2,"s", "s", "s");
+	}
+	
 	public Car(int doors, int wheels, String model, String engine, String color) {
 		super();
 		this.doors = doors;

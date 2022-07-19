@@ -93,6 +93,11 @@
 	2. Instance variables:
 		1. aka fields or member variables
 		2. belong to a specific instance of a class
-		
+
+## OOP Part II
+1. Composition
+	1. Class A is not Class B (i.e not inheritance); instead, Class is part of Class B or Class B has class A
+2.  Polymorphism
+	1. Overriding
 	
 		
