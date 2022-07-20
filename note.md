@@ -99,5 +99,12 @@
 	1. Class A is not Class B (i.e not inheritance); instead, Class is part of Class B or Class B has class A
 2.  Polymorphism
 	1. Overriding
-	
+
+3. Reference Type vs. Value Type
+	1. primitive types are value type
+	2. arrays and strings are reference type
+	3. Reference type;
+		1. reference type variable holds reference to an object which holds reference to other values
+			* e.g. an int array holds reference to an int[] which holds reference to other elements
+			 
 		
