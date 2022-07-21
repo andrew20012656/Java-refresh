@@ -107,4 +107,6 @@
 		1. reference type variable holds reference to an object which holds reference to other values
 			* e.g. an int array holds reference to an int[] which holds reference to other elements
 			 
+4. Autoboxing and Unboxing
+	1. We can put a primitive type (e.g. integer) to a Class (Integer Class)
 		
