@@ -109,4 +109,11 @@
 			 
 4. Autoboxing and Unboxing
 	1. We can put a primitive type (e.g. integer) to a Class (Integer Class)
+
+## Interface and Abstract Class
+
+1. Interface
+	* In Java, a class can't inherit multiple classes. But, it can implement multiple interfaces.
+2. Inner Class
+	1. To instantiate a inner class object, the syntax should be <Outer Class>.new <Inner Class>();
 		
