@@ -116,4 +116,24 @@
 	* In Java, a class can't inherit multiple classes. But, it can implement multiple interfaces.
 2. Inner Class
 	1. To instantiate a inner class object, the syntax should be <Outer Class>.new <Inner Class>();
+3. Abstract class
+	1. Define methods but not implementation
+	2. You can't instantiate an abstract class
+	3. keyword "extends"
+4. Interface vs Abstract Class
+	1. Abstract Class can have member variables that are inherited, but Interface can't. Interface can have variables, but they are all public static final variables.
+	2. Abstract class can have constructors, but interface cannot.
+	3. Abstract and interface can both have some methods implemented
+	4. All methods in Interface are public, but abstract class can have private methods.
+	5. Abstract class can only extend one parent class, but it can implement multiple interfaces.
+5. When to use abstract class?
+	1. share code among several closely related class
+	2. expect classes that extend this abstract class to have many common methods or fields or required access modifiers other than public
+	3. to declare non static and non final field
+	4. There is requirement for providing a default implementation of certain methods but other methods are open to being overriden
+6. When to use Interface?
+	1. expect that unrelated classes will implement your interface
+	2. want to specify the behavior of a particular type, but not concerned with who implements its behavior
+	3. want to separate different behavior (e.g. List has Array and ArrayList)
+		
 		
