@@ -136,4 +136,9 @@
 	2. want to specify the behavior of a particular type, but not concerned with who implements its behavior
 	3. want to separate different behavior (e.g. List has Array and ArrayList)
 		
-		
+## Generics
+1. When we provide a type parameter to a generic type, it's called a parameterized type.
+2. Java has a feature known as bounded type parameters
+	* e.g. public class Team <T extends Player>
+	* type parameters can have multiple bounds by implementing multiple interfaces 
+	
