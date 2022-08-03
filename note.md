@@ -141,4 +141,33 @@
 2. Java has a feature known as bounded type parameters
 	* e.g. public class Team <T extends Player>
 	* type parameters can have multiple bounds by implementing multiple interfaces 
+
+## Naming Convention
+1. Packages
+	* always lowercase
+	* unique names
+	* use your internet domain name, reversed, as a prefix for the package name
+	* change invalid character (e.g. - dash) to underscore
+2. Class names
+	* CamelCase
+	* Should start with a capital letter
+3. Interface
+	* CamelCase
+4. Method
+	* mixed Case
+	* often verbs
+5. Constants 
+	* all uppercase
+	* separate words using underscore
+6. Variable/field names
+	* mixedCase
+	* start with lowercase
+	* do not use underscores
+7. Type parameters
+	* Single character, capital letters
+	* E - Element
+	* K - Key
+	* T - Type
+	* V - Value
+	* S, U, V, etc. - 2nd, 3rd, 4th types
 	
